@@ -17,9 +17,13 @@ In order to test the service, Streamdata.io provides a sample REST API with freq
 
 Clone the repo and edit Program.cs file:
  * Update this line to set your Streamdata.io token
+
 	var token = "<YOUR STREAMDATAIO TOKEN>";
+
  * Update this line if you want to test with a different URL
+
 	var url = "https://streamdata.motwin.net/http://stockmarket.streamdata.io/prices" + "?X-Sd-Token=" + token;
+
  * Run project in Visual Studio. 
 
 ## Conclusion
