@@ -18,7 +18,7 @@ In order to test the service, Streamdata.io provides a sample REST API with freq
 Clone the repo and edit Program.cs file:
  * Update this line to set your Streamdata.io token
 
-	var token = "<YOUR STREAMDATAIO TOKEN>";
+	var token = "&lt;YOUR STREAMDATAIO TOKEN&gt;";
 
  * Update this line if you want to test with a different URL
 
